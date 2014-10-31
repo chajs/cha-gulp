@@ -1,0 +1,27 @@
+@media print {
+  .class {
+    color: blue;
+  }
+  .class .sub {
+    width: 42;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 2;
+    -ms-flex: 0 1 2;
+    flex: 0 1 2;
+    transition: -webkit-flex 200ms;
+    transition: -ms-flex 200ms;
+    transition: flex 200ms;
+  }
+  .top,
+  header > h1 {
+    color: #444444;
+  }
+}

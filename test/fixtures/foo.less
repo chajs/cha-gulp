@@ -1,0 +1,18 @@
+@var: 42;
+
+@media print {
+  .class {
+    color: blue;
+    .sub {
+      width: @var;
+      display: flex;
+      flex-flow: row;
+      order: 0;
+      flex: 0 1 2;
+      transition: flex 200ms;
+    }
+  }
+  .top, header > h1 {
+    color: (#222 * 2);
+  }
+}

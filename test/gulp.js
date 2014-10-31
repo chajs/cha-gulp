@@ -1,11 +1,6 @@
-cha-gulp
-========
-
-Gulp extension for cha.
-
-```js
+// Load cha library.
 var cha = require('cha');
-var gulp = require('cha-gulp');
+var gulp = require('../');
 
 cha.in('autoprefixer', gulp('gulp-autoprefixer'))
     .in('less', gulp('gulp-less'))
@@ -20,4 +15,3 @@ cha()
         cascade: false
     })
     .writer(__dirname + '/fixtures/foo.css')
-```

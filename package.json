@@ -1,0 +1,36 @@
+{
+  "name": "cha-gulp",
+  "version": "0.1.0",
+  "description": "Gulp extension for cha.",
+  "main": "lib/gulp.js",
+  "scripts": {
+    "test": "node ./test/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chajs/cha-gulp.git"
+  },
+  "keywords": [
+    "cha",
+    "extension",
+    "gulp"
+  ],
+  "author": "Yuanyan Cao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chajs/cha-gulp/issues"
+  },
+  "homepage": "https://github.com/chajs/cha-gulp",
+  "dependencies": {
+    "gulp-adapter": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-less": "^1.3.6",
+    "task-reader": "^0.1.0",
+    "task-writer": "^0.1.0"
+  },
+  "peerDependencies": {
+    "cha": ">= 0.1.0"
+  }
+}
